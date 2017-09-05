@@ -1,5 +1,11 @@
 package com.ylf.designpattern.creational.Singleton;
 
+/**
+ * 单例模式
+ * 
+ * @author Jerry
+ *
+ */
 public class Test {
 
 	public static void main(String[] args) {
