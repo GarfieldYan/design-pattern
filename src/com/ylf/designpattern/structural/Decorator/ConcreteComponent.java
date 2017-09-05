@@ -1,4 +1,4 @@
-package com.ylf.designpattern.structural.decorator;
+package com.ylf.designpattern.structural.Decorator;
 
 /**
  * 此类的对象可通过装饰器动态添加新功能

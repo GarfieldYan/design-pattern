@@ -1,4 +1,4 @@
-package com.ylf.designpattern.structural.decorator;
+package com.ylf.designpattern.structural.Decorator;
 
 /**
  * 装饰模式

@@ -1,4 +1,4 @@
-package com.ylf.designpattern.structural.decorator;
+package com.ylf.designpattern.structural.Decorator;
 
 /**
  * 添加B功能的装饰器

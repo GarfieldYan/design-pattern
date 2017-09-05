@@ -1,4 +1,4 @@
-package com.ylf.designpattern.structural.decorator;
+package com.ylf.designpattern.structural.Decorator;
 
 /**
  * 装饰器，可以是抽象类，和被装饰对象实现同一个接口，借此隐藏自己的装饰者身份，因为对于使用者来说接口不变
