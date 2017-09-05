@@ -15,6 +15,6 @@ public abstract class Decorator implements Component {
 	}
 
 	@Override
-	public abstract void method();
+	public abstract void operation();
 
 }

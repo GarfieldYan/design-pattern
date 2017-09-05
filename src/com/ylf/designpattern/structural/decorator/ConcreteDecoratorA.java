@@ -13,8 +13,8 @@ public class ConcreteDecoratorA extends Decorator {
 	}
 
 	@Override
-	public void method() {
-		component.method();
+	public void operation() {
+		component.operation();
 		System.out.println("添加额外A功能");
 	}
 

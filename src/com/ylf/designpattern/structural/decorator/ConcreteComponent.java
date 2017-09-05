@@ -9,7 +9,7 @@ package com.ylf.designpattern.structural.decorator;
 public class ConcreteComponent implements Component {
 
 	@Override
-	public void method() {
+	public void operation() {
 		System.out.println("普通操作");
 	}
 

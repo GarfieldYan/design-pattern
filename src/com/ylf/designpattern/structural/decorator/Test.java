@@ -11,15 +11,15 @@ public class Test {
 	public static void main(String[] args) {
 		//调用Component类型普通对象的方法
 		Component component = new ConcreteComponent();
-		component.method();
+		component.operation();
 		
 		//给Component类型普通对象动态添加A功能
 		Component componentWithA = new ConcreteDecoratorA(component);
-		componentWithA.method();
+		componentWithA.operation();
 		
 		//给Component类型普通对象动态添加B功能
 		Component componentWithB = new ConcreteDecoratorB(component);
-		componentWithB.method();
+		componentWithB.operation();
 	}
 
 }

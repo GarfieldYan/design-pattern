@@ -8,6 +8,6 @@ package com.ylf.designpattern.structural.decorator;
  */
 public interface Component {
 	
-	public void method();
+	public void operation();
 	
 }
