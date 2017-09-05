@@ -1,4 +1,4 @@
-package com.ylf.designpattern.structural.bridge;
+package com.ylf.designpattern.structural.Bridge;
 
 public class SmallBrush extends Brush {
 	

@@ -1,4 +1,4 @@
-package com.ylf.designpattern.structural.bridge;
+package com.ylf.designpattern.structural.Bridge;
 
 /**
  * 画笔抽象主类，代表了类的抽象部分，此类作为"桥"，连接类的各个不同维度的实现部分
