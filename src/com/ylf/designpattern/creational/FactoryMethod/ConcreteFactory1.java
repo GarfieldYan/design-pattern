@@ -1,6 +1,6 @@
 package com.ylf.designpattern.creational.FactoryMethod;
 
-public class ConcreteCreator1 implements Creator {
+public class ConcreteFactory1 implements Factory {
 
 	@Override
 	public Product makeProduct() {
