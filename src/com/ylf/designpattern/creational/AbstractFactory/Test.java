@@ -1,7 +1,7 @@
 package com.ylf.designpattern.creational.AbstractFactory;
 
 /**
- * 抽象工厂模式
+ * 抽象工厂模式，提供一个创建一系列相关或互相依赖的对象的接口，而无需指定这些对象的具体类型
  * 
  * @author Jerry
  */
