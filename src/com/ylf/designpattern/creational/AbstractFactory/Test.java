@@ -13,7 +13,7 @@ public class Test {
 		a1.productAFunction();
 		ProductB b1 = factory1.getProductB();
 		b1.productBFunction();
-		
+		// 切换工厂，生产不同类型的对象
 		Factory factory2 = new ConcreteFactory2();
 		ProductA a2 = factory2.getProductA();
 		a2.productAFunction();
