@@ -1,7 +1,7 @@
 package com.ylf.designpattern.behavioral.ChainOfResponsibility;
 
 /**
- * 职责链模式，使多个对象都有机会处理请求，从而避免请求者和处理者之间的耦合关系
+ * 职责链模式，解耦请求者和处理者，使多个处理者都有机会处理请求
  * 将处理者连成一条链，沿着这条链传递请求，直到有一个对象处理它为止，或者每个处理者都处理一部分请求。
  * 
  * @author Jerry
