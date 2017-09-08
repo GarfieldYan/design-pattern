@@ -24,3 +24,21 @@ public class DynamicProxyFactory {
 	}
 	
 }
+
+/* 动态生成的代理类例子
+class $Proxy0 extends Proxy implements Subject {
+	protected $Proxy0(InvocationHandler ih) {
+		super(ih);
+	}
+	@Override
+	public final void request() {
+		try {
+			Method m = Subject.class.getMethod("request");
+			Object[] args = {};
+			h.invoke(this, m, args);
+		} catch(Throwable e) {
+			throw new RuntimeException(e);
+		}
+	}
+}
+*/
