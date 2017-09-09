@@ -11,8 +11,8 @@ public class Test {
 		ConcreteMediator mediator = new ConcreteMediator();
 		Colleague colleague1 = mediator.getColleague1();
 		Colleague colleague2 = mediator.getColleague2();
-		colleague1.change();
-		colleague2.change();
+		colleague1.change();	// 同事1状态发生改变，请求中介者进行协调
+		colleague2.change();	// 同事2状态发生改变，请求中介者进行协调
 	}
 
 }

@@ -12,10 +12,16 @@ public abstract class Colleague {
 		return mediator;
 	}
 	
+	/**
+	 * 同事状态发生改变，通知中介者，请求协调
+	 */
 	public void change() {
 		mediator.cooperate(this);
 	}
 	
+	/**
+	 * 同事类的具体操作
+	 */
 	public abstract void action();
 	
 }

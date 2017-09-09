@@ -22,9 +22,9 @@ public class ConcreteMediator implements Mediator {
 	@Override
 	public void cooperate(Colleague colleague) {
 		if (colleague == colleague1) {
-			colleague2.action();	//colleague1发生改变，其它同时做出响应
+			colleague2.action();	//colleague1发生改变，其它同事做出响应
 		} else if (colleague == colleague2) { 
-			colleague1.action();	//colleague2发生改变，其它同时做出响应
+			colleague1.action();	//colleague2发生改变，其它同事做出响应
 		}
 	}
 
