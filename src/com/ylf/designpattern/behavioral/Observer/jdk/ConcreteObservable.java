@@ -2,6 +2,7 @@ package com.ylf.designpattern.behavioral.Observer.jdk;
 
 import java.util.Observable;
 
+@SuppressWarnings("deprecation")
 public class ConcreteObservable extends Observable {
 
 	private String state;

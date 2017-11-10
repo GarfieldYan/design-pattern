@@ -3,6 +3,7 @@ package com.ylf.designpattern.behavioral.Observer.jdk;
 import java.util.Observable;
 import java.util.Observer;
 
+@SuppressWarnings("deprecation")
 public class ConcreteObserver1 implements Observer {
 
 	private Object state;
